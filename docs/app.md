@@ -1,0 +1,1 @@
+assigned brief ID, own-words pitch, primary/child entity, mock direction, out-of-scope, at least five Lab 2 stakeholder questions (1.3)

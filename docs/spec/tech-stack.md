@@ -1,0 +1,1 @@
+ justified technology decisions for frontend, backend, persistence, test frameworks, and mocking approach (1.3)

@@ -16,10 +16,8 @@
 | --------------------------------------------------------------- | -------------------------- | -------------------------------------------------------------------------------- |
 | Kim Hofmann                                                     | Architecture owner         | keeps the three-tier boundaries and the domain model consistent across exercises |
 | Stefano Kannapin                                                | Documentation lead         | keeps docs/ up to date and consistent with what was actually implemented         |
-| You may add further roles that make sense for your team/project |
 | Viktoriia Kravtsova                                             | Repository / CI maintainer | keeps the repository, branch protection, and CI pipeline healthy                 |
 | Marcel Nicklass                                                 | Test lead                  | coordinates test strategy and keeps the test suite passing                       |
-|                                                                 |
 | Dmytro Nikolaiev                                                | ...                        | ...                                                                              |
 | Samuel Popjak                                                   | ...                        | ...                                                                              |
 

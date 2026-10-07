@@ -3,14 +3,17 @@
 ## Frontend: Blazor
 
 Blazor is Microsoft's modern web framework for building interactive web applications with ASP.NET.
+Allows us to share seamless code between frontend and backend.
 
 ## Backend: ASP.NET Core
 
 The backend will be written in C# using ASP.NET Core.
+Perfect interplay with Blazor.
 
 ## Persistence: PostgreSQL
 
 PostgreSQL will be used to store application data.
+Highly proven and easy to handle for everyone.
 
 ## Containerization: Docker and Docker Compose
 
@@ -19,6 +22,7 @@ Docker and Docker Compose will be used to run the project consistently across di
 ## External Dependencies
 
 The application will use an AI model that can either run locally or be accessed through an API, depending on the user's preference.
+No extra development of an AI.
 
 ## Testing Frameworks and Tools
 
@@ -28,6 +32,8 @@ The application will use an AI model that can either run locally or be accessed 
 - **Playwright**: UI testing
 - **FluentAssertions**: Readable test assertions
 - **Coverlet**: Code coverage measurement
+
+Known test frameworks and tools for our technology stack.
 
 ## Editing Note
 

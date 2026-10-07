@@ -18,9 +18,22 @@ Students often study alone and get stuck: they want a short explanation, an exam
 
 TODO
 
+
+
 ## Structure
 
-TODO
+```text
+ESBot/
+├── docs/
+│   ├── spec/
+│   │   └── tech-stack.md    # Specifications & tech stack overview
+│   ├── app.md               # Application details & features
+│   └── team.md              # Team workflow and processes
+├── .gitignore               # Ignored build files and secrets
+├── LICENSE                  # MIT License
+└── README.md                # Project documentation
+```
+
 
 ## Documentation
 

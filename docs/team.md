@@ -4,7 +4,7 @@
 | Name                | Github                     | Student ID |
 | ------------------- | -------------------------- | ---------- |
 | Kim Hofmann         | https://github.com/ReonDev | 760423     |
-| Stefano Kannapin    | ....                       | ....       |
+| Stefano Kannapin    | https://github.com/stkait04| 771652     |
 | Viktoriia Kravtsova | ...                        | ...        |
 | Marcel Nicklass     | https://github.com/matixx03| 777441     |
 | Dmytro Nikolaiev    | ...                        | ...        |

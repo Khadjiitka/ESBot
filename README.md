@@ -22,9 +22,41 @@ Students often study alone and get stuck: they want a short explanation, an exam
 
 ## Setup
 
-TODO
+### Prerequisites
+Before you begin, ensure you have the following installed on your machine:
+* [.NET 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) (Required for ASP.NET Core and Blazor)
+* [Docker Desktop](https://www.docker.com/products/docker-desktop/) (Required for PostgreSQL and Testcontainers)
+* An IDE such as [Visual Studio 2022](https://visualstudio.microsoft.com/) or [Visual Studio Code](https://code.visualstudio.com/)
 
+### 1. Clone the repository
+Clone the repository to your local machine and navigate into the project directory:
+```bash
+git clone https://github.com/ReonDev/ESBot.git
+cd ESBot
+```
 
+### 2. Start the Database
+We use PostgreSQL running in a Docker container for our data persistence. To start the database in the background, run:
+```bash
+docker-compose up -d
+```
+
+### 3. Setup Configuration
+- Open appsettings.Development.json in the backend project.
+- Ensure the database connection string points to your local PostgreSQL Docker instance.
+- Configure the API keys for the AI model if you are not using a local model.
+
+### 4. Build and Run the Application
+Navigate to the main startup project directory (where the Blazor/ASP.NET Core .csproj is located) and start the application:
+```bash
+dotnet run
+```
+
+### 5. Running Tests
+To run our comprehensive test suite (xUnit, Testcontainers, Playwright), navigate to the solution root and execute:
+```bash
+dotnet test
+```
 
 ## Structure
 

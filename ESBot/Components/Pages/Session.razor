@@ -1,0 +1,45 @@
+@page "/sessions"
+
+@using ESBot.Data
+
+@rendermode InteractiveServer
+
+@inject ISessionRepository SessionRepository
+
+<h3>Sessions</h3>
+
+<div class="row mt-2">
+    <div class="col-12 col-md-4">
+        <ul class="list-group">
+            @foreach (var session in sessions)
+            {
+                <li class="list-group-item d-flex gap-2 align-items-center">
+                    <div>
+                        <div>Id: @session.Id</div>
+                        <div>Name: @session.Name</div>
+                        <div>Age: @session.Text</div>
+                    </div>
+                    <div class="ms-auto">
+                        <button @onclick="@(() => DeleteSession(session.Id))" class="btn btn-danger">Delete</button>
+                    </div>
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+
+@code {
+    private List<ESBot.Models.Session> sessions = [];
+
+    protected override void OnInitialized()
+    {
+        sessions = SessionRepository.GetSessions();
+    }
+
+    private void DeleteSession(int sessionId)
+    {
+        SessionRepository.DeleteSession(sessionId);
+        sessions = SessionRepository.GetSessions();
+    }
+
+}

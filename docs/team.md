@@ -18,7 +18,7 @@
 | Stefano Kannapin                                                | Documentation lead         | keeps docs/ up to date and consistent with what was actually implemented         |
 | Viktoriia Kravtsova                                             | Repository / CI maintainer | keeps the repository, branch protection, and CI pipeline healthy                 |
 | Marcel Nicklass                                                 | Test lead / DB lead        | responsible for testing and database persistence                                 |                    
-| Dmytro Nikolaiev                                                | ...                        | ...                                                                              |
+| Dmytro Nikolaiev                                                | Repository / CI maintainer | keeps the repository, branch protection, and CI pipeline healthy                 |
 | Samuel Popjak                                                   | ...                        | ...                                                                              |
 
 # 3. Collaboration workflow

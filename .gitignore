@@ -1,0 +1,49 @@
+# .NET build output
+**/bin/
+**/obj/
+
+# Test output and coverage
+**/TestResults/
+**/test-results/
+**/coverage/
+*.coverage
+*.coveragexml
+
+# Playwright output
+**/playwright-report/
+**/playwright/.cache/
+**/test-results/
+
+# Visual Studio and IDE user files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.rsuser
+
+# Rider
+.idea/
+*.sln.iml
+
+# Local development configuration and secrets
+appsettings.Local.json
+appsettings.*.local.json
+*.usersecrets
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Node package output, if frontend tooling is added later
+node_modules/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Change note
+# Author: GitHub Copilot
+# Changes: Added ignore rules for .NET build output, test results, coverage,
+#          Playwright artifacts, IDE files, local configuration, and OS files.
+# Timestamp: 2026-10-10 00:46:03 +02:00
